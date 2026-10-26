@@ -1,0 +1,22 @@
+# Microdados brutos do INEP (~3,3 GB): ficam na pasta, fora do git.
+# Os LEIA-ME (manuais, dicionários e questionários) de cada edição entram no git.
+00_EnadeX_Geral/dados_enade/*/2.DADOS/
+
+# Base de teste com microdados de 2005 (~207 MB)
+01_MultiENADE/dados/Modelo_teste/
+
+# Vídeos (~633 MB)
+*.mp4
+
+# Credenciais
+.env
+.env.*
+
+# Obsidian: estado local da janela de cada pessoa
+.obsidian/workspace*.json
+.obsidian/cache
+
+# Sistema
+.DS_Store
+Thumbs.db
+__MACOSX/
